@@ -20,7 +20,10 @@ document.getElementById('check-guest').addEventListener('click', function () {
 let numbers = [];
 
 for (let i = 0; i < 6; i++) {
-
+    let num = prompt('inserisci numero');
+    if (num % 2 != 0) {
+        numbers.push(num)
+    }
 
 
 }

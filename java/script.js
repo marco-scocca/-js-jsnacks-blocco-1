@@ -18,3 +18,9 @@ document.getElementById('check-guest').addEventListener('click', function () {
 
 
 let numbers = [];
+
+for (let i = 0; i < 6; i++) {
+
+
+
+}

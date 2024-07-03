@@ -17,14 +17,20 @@ document.getElementById('check-guest').addEventListener('click', function () {
 });
 
 
-let numbers = [];
+// let numbers = [];
 
-for (let i = 1; i <= 6; i++) {
-    let num = prompt('inserisci numero');
-    if (num % 2 != 0) {
-        numbers.push(num)
-    }
+//    for (let i = 1; i <= 6; i++) {
+//    let num = prompt('inserisci numero');
+//    if (num % 2 != 0) {
+//        numbers.push(num)
+//    }
 
+
+//    }
+//    console.log(numbers);
+
+
+document.getElementById('send-number').addEventListener('click', function () {
+    let num = document.getElementById('number').value;
 
 }
-console.log(numbers);

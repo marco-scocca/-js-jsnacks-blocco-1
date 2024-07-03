@@ -38,6 +38,8 @@ document.getElementById('send-number').addEventListener('click', function () {
 
         for (let i = 0; i < num.lenght; i++) {
             console.log(num[i]);
+            somma += parseInt(num[i]);
+            console.log(somma);
         }
     }
 })

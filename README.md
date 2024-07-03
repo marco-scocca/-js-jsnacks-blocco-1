@@ -15,3 +15,13 @@ eseguo prompt in cui utente inserisce numero
 se numero inserito è dispari inserire nell'array
 altrimenti non fa nulla
 mostra array
+
+snack3
+Permetto all'utente di inserire un numero
+se il numero è di 4 cifre calcolo somma delle cifre di cui è composto
+scompongo il numero in un array contente le cifre che lo compongono
+dichiaro variabile che contiene somma dei numeri
+ciclo array
+sommo numeri
+mostro risultato
+altrimenti non faccio niente

@@ -33,4 +33,11 @@ document.getElementById('check-guest').addEventListener('click', function () {
 document.getElementById('send-number').addEventListener('click', function () {
     let num = document.getElementById('number').value;
 
-}
+    if (num.lenght === 4) {
+        let somma = 0;
+
+        for (let i = 0; i < num.lenght; i++) {
+            console.log(num[i]);
+        }
+    }
+})

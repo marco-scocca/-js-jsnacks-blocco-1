@@ -15,3 +15,6 @@ document.getElementById('check-guest').addEventListener('click', function () {
         console.log('non siete in lista');
     }
 });
+
+
+let numbers = [];

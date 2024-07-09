@@ -4,7 +4,7 @@ document.getElementById('check-guest').addEventListener('click', function () {
 
     let name = document.getElementById('name').value;
     for (let i = 0; i < guests.length; i++) {
-        if (guests[i], toLowerCase() === name.toLowerCase()) {
+        if (guests[i].toLowerCase() === name.toLowerCase()) {
             check_guest = true
         }
     }
@@ -33,13 +33,14 @@ document.getElementById('check-guest').addEventListener('click', function () {
 document.getElementById('send-number').addEventListener('click', function () {
     let num = document.getElementById('number').value;
 
-    if (num.lenght === 4) {
+    if (num.length === 4) {
         let somma = 0;
 
-        for (let i = 0; i < num.lenght; i++) {
+        for (let i = 0; i < num.length; i++) {
             console.log(num[i]);
             somma += parseInt(num[i]);
-            console.log(somma);
+
         }
+        console.log(somma);
     }
 })
